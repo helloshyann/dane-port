@@ -1,4 +1,4 @@
-/* @import url(''); */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Raleway&display=swap');
 
 .sticky-nav {
     position: fixed;
@@ -7,18 +7,22 @@
     width: 100%;
 }
 
-/* .title {
-    font-family: ;
-} */
-
-.bold {
-    font-weight: 500;
-    font-size: larger;
+.cinzel {
+    font-family: 'Cinzel', serif;
 }
 
-/* body {
-   font-family: ;   
-} */
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;    
+}
+
+.bold {
+    font-weight: 900;
+    font-size: larger;
+}
 
 .header{
     
@@ -28,6 +32,10 @@
     background-size: cover;
     background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgba(138, 192, 216, 1) 90%)
 
+}
+
+.header-card {
+    background-color: #deeefb;
 }
 
 @media only screen and (min-width: 992px) {
